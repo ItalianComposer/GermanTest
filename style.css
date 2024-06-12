@@ -1,0 +1,340 @@
+/*
+Theme Name: GermanWebTest
+Theme URL: https://italiancomposer.com/
+Description:
+Version: 1.0
+Author: ItalianComposer
+Author URI: https://italiancomposer.com/
+*/
+body, html, p, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.calibri-400-14 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.09px;
+    color: #6B7073;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 100px;
+    padding: 0 77px;
+    box-shadow: 0px 4px 26px 0px #00000017;
+}
+.header_logo {
+    width: 91px;
+}
+.header_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 29px 0;
+    width: 1015px;
+}
+.work_time {
+    display: flex;
+    gap: 6px;
+}
+.shop_search_input {
+    width: 268px;
+    padding: 12px 15px 12px 14px;
+    border: none;
+    color: inherit;
+    border-radius: 50px;
+    box-shadow: 2px 4px 11px 0px #0000002B;
+    font-size: 12px;
+    line-height: 14.65px;
+    color: #C4C4C4;
+}
+.shop_search-430px {
+    display: none;
+}
+.search_input_icon {
+    position: relative;
+    top: 5px;
+    right: 40px;
+}
+.burger_icon {
+    width: 33px;
+}
+.content {
+    padding: 0 80px;
+}
+.bread_crumbs {
+    display: flex;
+    gap: 8px;
+    margin-top: 29px;
+    .parent_page {
+        color: #C4C4C4;
+    }
+    .children_page {
+        color: #6B7073;
+    }
+}
+.content_about_us {
+    display: flex;
+    margin: 38px 0 80px 0;
+}
+.about_us_description {
+    margin-left: 30px;
+    .about_us_title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+        margin-bottom: 24px;
+    }
+    .about_us_paragraph {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 34px;
+        width: 555px;
+    }
+    .about_us_download {
+        display: flex;
+        margin-bottom: 69px;
+    }
+    .download_paragraph {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        margin-right: 10px;
+    }
+    .advantages_title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 34px;
+    }
+    .advantages_list {
+        padding-left: 20px;
+        margin-bottom: 52px;
+        margin-top: 0;
+    }
+    .advantages_list li {
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .advantages_list li::marker {
+        color: #CD3B31;
+    }
+    .advantages_post {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+.content_slider {
+    margin-bottom: 80px;
+    .content_slider_title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+        margin-bottom: 24px;
+    }
+    .slider_container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .slider {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .slider_images {
+        margin-bottom: 37px;
+        min-width: 1012px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .slider_controls {
+
+    }
+    .slider_description {
+        padding-left: 20px;
+        margin: 0;
+        max-width: 688px;
+    }
+    .slider_description li {
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .slider_description li::marker {
+        color: #CD3B31;
+    }
+}
+.content_gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-bottom: 91px;
+
+    .gallery_top, .gallery_bottom {
+        display: flex;
+        justify-content: space-between;
+    }
+    .gallery_description {
+        width: 191px;
+        margin-right: 73px;
+    }
+    .gallery_description_item {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .gallery_description_item p {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #6B7073;
+        margin-bottom: 17px;
+        max-width: 151px;
+    }
+    .gallery_description_item h2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 43.95px;
+        color: #151516;
+        margin-bottom: 39px;
+    }
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 80px;
+    box-shadow: 0px 4px 26px 0px #00000017;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.53px;
+    
+    .footer_nav_links {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: start;
+        a {
+            color: #151516;
+        }
+    }
+    .footer_controls {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 54px;
+        .footer_socials {
+            display: flex;
+            gap: 21px;
+        }
+    }
+    .footer_information {
+        font-size: 14px;
+        line-height: 17.09px;
+        max-width: 152px;
+        p {
+            margin-bottom: 21px;
+        }
+    }
+}
+.footer-mobile {
+    display: none;
+}
+/* menu */
+.burger-checkbox {
+    position: absolute;
+    visibility: hidden;
+}
+.burger {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    display: block;
+    width: 40px;
+    height: 26px;
+    background: url('icons/burger-icon.svg') no-repeat center;
+    background-size: contain;
+  }
+
+.burger_menu {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    max-width: 1740px;
+    transform: translateY(-120%);
+    transition: transform 0.5s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.53px;
+    padding: 19px 80px 72px 80px;
+    background: #ffffff;
+
+    .menu_links {
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        align-items: flex-start;
+        border-right: 1px solid #C4C4C4;
+        padding: 31px 67px 31px 0;
+        margin-right: 60px;
+        a {
+            font-size: 20px;
+            line-height: 24.41px;
+            color: #151516;
+        }
+    }
+    .menu_links_shops {
+        display: flex;
+        flex-direction: column;
+        gap: 34px;
+        line-height: 40.49px;
+        .links_shops_container {
+            display: flex;
+            gap: 80px;
+            .shops_container_left, .shops_container_right {
+                width: 200px;
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                a {
+                    color: #151516;
+                }
+            }
+        }
+    }
+    .menu_links_cafe, .menu_links_services, .menu_links_fun {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        line-height: 40.49px;
+        a {
+            color: #151516;
+            width: 242px;
+        }
+        h2 {
+            margin-bottom: 18px;
+        }
+    }
+    .add_menu_links-820px {
+        display: none;
+    }
+} 
+.burger-checkbox:checked ~ .burger_menu {
+    transform: translateY(0);
+}
+  .burger-checkbox:checked + .burger {
+    background-image: url('icons/menu-close.png');
+}
